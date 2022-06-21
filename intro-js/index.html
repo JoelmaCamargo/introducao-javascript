@@ -7,10 +7,14 @@
     <title>Javascript</title>
 </head>
 <body>
-    <h1>Introdução a Linguagem JavaScript</h1>
-    <script>
-        alert('Olá! Seja Bem vindo(a)!')
-        document.write('Essa é a nossa primeira vídeo aula. ')
-    </script>
+    <h1 id="t1">Introdução a Linguagem JavaScript</h1>
+    <h2 id="t2"></h2>
+    <form id="formularioLogin" onsubmit="bemVindo(); return false;">
+        <input type="text" id="nomeUsuario" placeholder="usuário"/> 
+        <input type="password" placeholder="senha"/> 
+        <button type="submit">Entrar</button>
+    </form>
+
+    <script src="index.js"></script>
 </body>
 </html>
